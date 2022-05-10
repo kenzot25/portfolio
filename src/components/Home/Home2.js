@@ -12,10 +12,8 @@ function Home2() {
           <h1 style={{ fontSize: "2.6em", textAlign: "center" }}>
             <span className="blue"> INTRODUCE </span>
           </h1>
-          <Row>
-            <Col md={3} className="myAvtar">
-              <img src={face} className="img-fluid" alt="avatar" />
-            </Col>
+          <Row style={{ justifyContent: "space-between" }}>
+
             <Col md={8} className="home-about-description">
               <p className="home-about-body">
                 I fell in love with programming and I have at least learnt
@@ -48,6 +46,9 @@ function Home2() {
                   <b className="blue"> React.js</b> and some other cool stuff.
                 </i>
               </p>
+            </Col>
+            <Col md={3} className="myAvtar">
+              <img src={face} className="img-fluid avt" alt="avatar" />
             </Col>
           </Row>
           <Row>

@@ -613,3 +613,9 @@ button:visited {
 .linkAnnotation {
   display: none;
 }
+.avt {
+  border-radius: .5rem;
+  width: 70%;
+  border:0.5px solid rgba(204, 204, 204, 0.26);
+
+}
