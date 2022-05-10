@@ -1,0 +1,84 @@
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid #48cae496 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px #3db0c77e !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  position: relative;
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+.tech-hover {
+  font-size: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  overflow: hidden !important;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  vertical-align: middle !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+.tech-icons svg {
+  transition: all 0.5s;
+}
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid #33d3f3f1 !important;
+}
+.tech-icons:hover svg {
+  opacity: 0;
+  visibility: hidden;
+  /* visibility: hidden; */
+}
+.tech-icons:hover .tech-hover {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+/* .tech-html {
+
+}
+.tech-css {
+
+}
+.tech-js {
+
+}
+.tech-react {
+
+}
+.tech-tailwindcss {
+
+}
+.tech-boostrap {
+
+}
+.tech-nodejs {
+
+}
+.tech-mongodb {
+
+}
+.tech-firebase {
+
+}
+.tech-figma {
+
+} */
